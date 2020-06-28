@@ -46,5 +46,5 @@ used to evaluate the model’s classification ability on each garbage category.
 ROC and AUC is plotted to provide a visualized idea of the model’s classification
 ability for each category of garbage.
 
-## Model Archtecture
+## Model Architecture 
 We build an MLP with 2 hidden layers. In the input layer we specify the tensor of the input data as 3D. In the output layer we specify that the input data is divided into six categories to correspond to the number of categories of our original data. In the hidden layer, we choose Relu as the activation function, because Relu calculates and converges quickly, and it can also solve the problem of vanishing gradients. It is currently the most mainstream activation function. Because it is a multi- classification problem, our activation function at the output layer is softmax, and the loss function is categorical_crossentropy corresponding to it. 
