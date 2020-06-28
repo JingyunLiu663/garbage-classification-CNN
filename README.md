@@ -5,6 +5,9 @@ To measure the performance, categorical entropy is selected as the loss function
 and categorical accuracy is set to be the key performance measurement metric for each epoch. <br />
 The precision, recall, and F-1 score, along with ROC&AUC at the last epoch are evaluated. <br />
 
+## Files in this repository 
+CNN.ipynb: This is a jupyter notebook to conduct CNN for image classification with Python.
+
 ## Data set description
 
 The raw data is downloaded from Kaggle.com (https://www.kaggle.com/asdasdasasdas/garbage-classification). It is a large folder containing 6 subfolders of 2,527 pictures in total. The name of each subfolder indicates the category of garbage images stored in it - cardboard (403 pictures), glass (501 pictures), metal (410 pictures), paper (594 pictures), plastic (482 pictures) and trash (137 pictures) respectively. All the pictures are color-image in jpg format with a size of 512*384 (pixels). <br />
